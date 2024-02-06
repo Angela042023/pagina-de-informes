@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #f4f4f4; /* Color de fondo para todo el cuerpo */
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    background-color: #333; /* Cambio de color de fondo de la cabecera */
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    margin: 15px; /* Reducción del margen para mayor estética */
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px; /* Reducción del tamaño de fuente para mayor legibilidad */
+}
+
+.navbar a:hover {
+    background-color: #D9B26F;
+}
+
+.funcion,
+.objetivo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Alineación de elementos en columna */
+    margin-top: 20px; /* Espaciado superior para separar las secciones */
+}
+
+.imagen1 img {
+    max-height: 50vh;
+    width: auto;
+    border-radius: 10px; /* Agregado de bordes redondeados a las imágenes */
+    margin-bottom: 20px; /* Espaciado inferior para separar la imagen del texto */
+}
+
+.texto1,
+.texto2 {
+    text-align: center; /* Alineación de texto al centro */
+    max-width: 600px; /* Limitar el ancho del texto para mejorar la legibilidad */
+    margin: 0 auto; /* Centrar el texto en el contenedor */
+}
+
+.texto1 h1,
+.texto2 h1 {
+    color: #4A6C6F; /* Cambio de color para los títulos */
+}
+
+.texto1 h2,
+.texto2 h2 {
+    color: #333; /* Cambio de color para el texto principal */
+}
+
+.buttom {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9DD1F1; /* Cambio del borde a sólido */
+    color: #fff;
+    text-decoration: none;
+    background: #9DD1F1;
+    border-radius: 5px; /* Agregado de bordes redondeados */
+}
+
+.buttom:hover {
+    background: #4A6C6F; /* Cambio de color al pasar el ratón */
+    color: #fff;
+}
+
+/* Agregado de estilos para las secciones de cajas */
+.box-container,
+.box-container2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px; /* Reducción del espacio superior para las cajas */
+}
+
+.box {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Estilos para la sección de "about" */
+.about {
+    background-color: #4A6C6F; /* Cambio de color de fondo */
+    color: #fff;
+    padding: 50px 0;
+}
+
+/* Estilos para la sección del "footer" */
+.footer {
+    padding: 20px 0;
+    background: #333; /* Cambio de color de fondo */
+    color: #fff;
+}
+
+
+ <div  class="objetivo">
+            <div class="imagen1">
+                <img src="img/naranja.png">
+            </div>
+            <div class="texto2">
+                <h1>Construcciòn</h1>
+                <br>
+                <h2> 
+                        El proyecto está construido utilizando tecnologías web, 
+                        específicamente mediante la plataforma WordPress y haciendo uso de 
+                        un flipbook implementado en HTML. La elección de WordPress sugiere una 
+                        apuesta por una solución robusta y de fácil gestión de contenidos. Por 
+                        otro lado, la implementación de un flipbook en HTML sugiere un enfoque 
+                        interactivo para la presentación de información, lo que podría aumentar 
+                        la participación y el compromiso de los usuarios. 
+                    </h2>
+            </div>
+        </div>
